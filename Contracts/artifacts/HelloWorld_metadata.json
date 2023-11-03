@@ -6,6 +6,13 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -43,10 +50,10 @@
 	},
 	"sources": {
 		"Contracts/HelloWorld.sol": {
-			"keccak256": "0xf21461b96d1abd11b48757ec247930b25555a038801e04652a56c53bd77b183a",
+			"keccak256": "0xa959fb54ace5089242e17e7550844ccfd917ed8089e49986f66ab4cc9e6f252e",
 			"urls": [
-				"bzz-raw://8a68657c4fe73e3e42803f87fbb3fbdd27ccf3abb687811837c526db598838f3",
-				"dweb:/ipfs/QmNgicoaZs9XmfqoMMUGzRe15LZ72ainBJpLZZ2G1UKgLm"
+				"bzz-raw://0ded081d6ba19f1578b07d087e6a6a7754c51cfab1e99354406fd9bbfeb76888",
+				"dweb:/ipfs/QmdwAKGKrvf7bSyJFRsLtioTPL2pFPtvCAcVYTZSQXnBRm"
 			]
 		}
 	},

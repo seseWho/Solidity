@@ -7,4 +7,8 @@ contract HelloWorld {
     function setValue(uint newValue) public {
         value = newValue;
     }
+
+    function remove() public {
+        selfdestruct(payable(address(0x0)));
+    }
 }
