@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.6.6; 
+pragma solidity ^0.8.22; 
 
 contract HelloWorld {
-    uint private value;
+    uint public value;
 
     function setValue(uint newValue) public {
         value = newValue;

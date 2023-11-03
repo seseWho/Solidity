@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.6+commit.6c089d02"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -24,20 +24,37 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"Contracts/HelloWorld.sol": "HelloWorld"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -50,10 +67,11 @@
 	},
 	"sources": {
 		"Contracts/HelloWorld.sol": {
-			"keccak256": "0xa959fb54ace5089242e17e7550844ccfd917ed8089e49986f66ab4cc9e6f252e",
+			"keccak256": "0x0b4216d85a1825e5da638a65af29706fef9669637f02f529c675ee3a75f02b59",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://0ded081d6ba19f1578b07d087e6a6a7754c51cfab1e99354406fd9bbfeb76888",
-				"dweb:/ipfs/QmdwAKGKrvf7bSyJFRsLtioTPL2pFPtvCAcVYTZSQXnBRm"
+				"bzz-raw://35c18d12586a4841359a4c14e45b62809d6157d0bc2a623980e4b51c75d07541",
+				"dweb:/ipfs/QmP7KoCaExveC36w4HZoED6WsHFsXBZPdhKd7f6bX7zCXv"
 			]
 		}
 	},
