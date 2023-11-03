@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/HelloWorld.sol": {
+			"keccak256": "0xf21461b96d1abd11b48757ec247930b25555a038801e04652a56c53bd77b183a",
+			"urls": [
+				"bzz-raw://8a68657c4fe73e3e42803f87fbb3fbdd27ccf3abb687811837c526db598838f3",
+				"dweb:/ipfs/QmNgicoaZs9XmfqoMMUGzRe15LZ72ainBJpLZZ2G1UKgLm"
+			]
+		}
+	},
+	"version": 1
+}
